@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A8254B71BCE401F00F550FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8254AF1BCE401F00F550FC /* LaunchScreen.xib */; };
+		0A8254B81BCE401F00F550FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8254B01BCE401F00F550FC /* Main.storyboard */; };
+		0A8254B91BCE401F00F550FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8254B51BCE401F00F550FC /* ViewController.m */; };
 		ADCC80B81B45A7460053300B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCC80B71B45A7460053300B /* main.m */; };
 		ADCC80BB1B45A7460053300B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCC80BA1B45A7460053300B /* AppDelegate.m */; };
-		ADCC80BE1B45A7460053300B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCC80BD1B45A7460053300B /* ViewController.m */; };
-		ADCC80C11B45A7460053300B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCC80BF1B45A7460053300B /* Main.storyboard */; };
 		ADCC80C31B45A7460053300B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCC80C21B45A7460053300B /* Images.xcassets */; };
-		ADCC80C61B45A7460053300B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADCC80C41B45A7460053300B /* LaunchScreen.xib */; };
 		ADCC80D21B45A7470053300B /* nine_ask_community_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCC80D11B45A7470053300B /* nine_ask_community_iosTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,16 +27,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8254AF1BCE401F00F550FC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		0A8254B01BCE401F00F550FC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0A8254B41BCE401F00F550FC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A8254B51BCE401F00F550FC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A8254BB1BCE408400F550FC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0A8254BC1BCE40AC00F550FC /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		ADCC80B21B45A7460053300B /* nine-ask-community-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nine-ask-community-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCC80B61B45A7460053300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADCC80B71B45A7460053300B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADCC80B91B45A7460053300B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADCC80BA1B45A7460053300B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADCC80BC1B45A7460053300B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ADCC80BD1B45A7460053300B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ADCC80C01B45A7460053300B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADCC80C21B45A7460053300B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ADCC80C51B45A7460053300B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ADCC80CB1B45A7470053300B /* nine-ask-community-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nine-ask-community-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCC80D01B45A7470053300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADCC80D11B45A7470053300B /* nine_ask_community_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nine_ask_community_iosTests.m; sourceTree = "<group>"; };
@@ -60,6 +62,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A8254AB1BCE401F00F550FC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0A8254BB1BCE408400F550FC /* PrefixHeader.pch */,
+				0A8254BC1BCE40AC00F550FC /* Config.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0A8254AC1BCE401F00F550FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A8254AD1BCE401F00F550FC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0A8254AE1BCE401F00F550FC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A8254AF1BCE401F00F550FC /* LaunchScreen.xib */,
+				0A8254B01BCE401F00F550FC /* Main.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0A8254B11BCE401F00F550FC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0A8254B21BCE401F00F550FC /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		0A8254B31BCE401F00F550FC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A8254B41BCE401F00F550FC /* ViewController.h */,
+				0A8254B51BCE401F00F550FC /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0A8254B61BCE401F00F550FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		ADCC80A91B45A7460053300B = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +145,17 @@
 		ADCC80B41B45A7460053300B /* nine-ask-community-ios */ = {
 			isa = PBXGroup;
 			children = (
+				0A8254AB1BCE401F00F550FC /* Config */,
+				0A8254AC1BCE401F00F550FC /* Model */,
+				0A8254AD1BCE401F00F550FC /* Request */,
+				0A8254AE1BCE401F00F550FC /* Resource */,
+				0A8254B11BCE401F00F550FC /* Tools */,
+				0A8254B21BCE401F00F550FC /* Vendor */,
+				0A8254B31BCE401F00F550FC /* ViewController */,
+				0A8254B61BCE401F00F550FC /* ViewModel */,
 				ADCC80B91B45A7460053300B /* AppDelegate.h */,
 				ADCC80BA1B45A7460053300B /* AppDelegate.m */,
-				ADCC80BC1B45A7460053300B /* ViewController.h */,
-				ADCC80BD1B45A7460053300B /* ViewController.m */,
-				ADCC80BF1B45A7460053300B /* Main.storyboard */,
 				ADCC80C21B45A7460053300B /* Images.xcassets */,
-				ADCC80C41B45A7460053300B /* LaunchScreen.xib */,
 				ADCC80B51B45A7460053300B /* Supporting Files */,
 			);
 			path = "nine-ask-community-ios";
@@ -199,8 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADCC80C11B45A7460053300B /* Main.storyboard in Resources */,
-				ADCC80C61B45A7460053300B /* LaunchScreen.xib in Resources */,
+				0A8254B81BCE401F00F550FC /* Main.storyboard in Resources */,
+				0A8254B71BCE401F00F550FC /* LaunchScreen.xib in Resources */,
 				ADCC80C31B45A7460053300B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADCC80BE1B45A7460053300B /* ViewController.m in Sources */,
+				0A8254B91BCE401F00F550FC /* ViewController.m in Sources */,
 				ADCC80BB1B45A7460053300B /* AppDelegate.m in Sources */,
 				ADCC80B81B45A7460053300B /* main.m in Sources */,
 			);
@@ -242,25 +310,6 @@
 			targetProxy = ADCC80CC1B45A7470053300B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ADCC80BF1B45A7460053300B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADCC80C01B45A7460053300B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ADCC80C41B45A7460053300B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADCC80C51B45A7460053300B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ADCC80D31B45A7470053300B /* Debug */ = {
@@ -416,6 +465,7 @@
 				ADCC80D71B45A7470053300B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADCC80D81B45A7470053300B /* Build configuration list for PBXNativeTarget "nine-ask-community-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +474,7 @@
 				ADCC80DA1B45A7470053300B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
