@@ -10,6 +10,8 @@
 		0A8254B71BCE401F00F550FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A8254AF1BCE401F00F550FC /* LaunchScreen.xib */; };
 		0A8254B81BCE401F00F550FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8254B01BCE401F00F550FC /* Main.storyboard */; };
 		0A8254B91BCE401F00F550FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8254B51BCE401F00F550FC /* ViewController.m */; };
+		0A8254BF1BCE45F400F550FC /* PublicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8254BE1BCE45F400F550FC /* PublicModel.m */; };
+		0A8254C21BCE460800F550FC /* NetRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8254C11BCE460800F550FC /* NetRequestClass.m */; };
 		ADCC80B81B45A7460053300B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCC80B71B45A7460053300B /* main.m */; };
 		ADCC80BB1B45A7460053300B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCC80BA1B45A7460053300B /* AppDelegate.m */; };
 		ADCC80C31B45A7460053300B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCC80C21B45A7460053300B /* Images.xcassets */; };
@@ -33,6 +35,10 @@
 		0A8254B51BCE401F00F550FC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A8254BB1BCE408400F550FC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0A8254BC1BCE40AC00F550FC /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0A8254BD1BCE45F400F550FC /* PublicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicModel.h; sourceTree = "<group>"; };
+		0A8254BE1BCE45F400F550FC /* PublicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicModel.m; sourceTree = "<group>"; };
+		0A8254C01BCE460800F550FC /* NetRequestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequestClass.h; sourceTree = "<group>"; };
+		0A8254C11BCE460800F550FC /* NetRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestClass.m; sourceTree = "<group>"; };
 		ADCC80B21B45A7460053300B /* nine-ask-community-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nine-ask-community-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCC80B61B45A7460053300B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADCC80B71B45A7460053300B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +80,8 @@
 		0A8254AC1BCE401F00F550FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0A8254BD1BCE45F400F550FC /* PublicModel.h */,
+				0A8254BE1BCE45F400F550FC /* PublicModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -81,6 +89,8 @@
 		0A8254AD1BCE401F00F550FC /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				0A8254C01BCE460800F550FC /* NetRequestClass.h */,
+				0A8254C11BCE460800F550FC /* NetRequestClass.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -287,6 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8254BF1BCE45F400F550FC /* PublicModel.m in Sources */,
+				0A8254C21BCE460800F550FC /* NetRequestClass.m in Sources */,
 				0A8254B91BCE401F00F550FC /* ViewController.m in Sources */,
 				ADCC80BB1B45A7460053300B /* AppDelegate.m in Sources */,
 				ADCC80B81B45A7460053300B /* main.m in Sources */,
